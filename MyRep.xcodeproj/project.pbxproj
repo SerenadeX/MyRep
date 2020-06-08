@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59CB2B46248AB88C009828B3 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CB2B45248AB88C009828B3 /* Member.swift */; };
+		59CB2B48248AB923009828B3 /* MemberFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CB2B47248AB923009828B3 /* MemberFetcher.swift */; };
+		59CB2B4A248ACEEE009828B3 /* SearchableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CB2B49248ACEEE009828B3 /* SearchableTableViewController.swift */; };
+		59CB2B4C248ADA94009828B3 /* MemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CB2B4B248ADA94009828B3 /* MemberTableViewCell.swift */; };
 		59FF214C248AA26D00ACCF8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF214B248AA26D00ACCF8C /* AppDelegate.swift */; };
 		59FF214E248AA26D00ACCF8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF214D248AA26D00ACCF8C /* SceneDelegate.swift */; };
 		59FF2150248AA26D00ACCF8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF214F248AA26D00ACCF8C /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59CB2B45248AB88C009828B3 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		59CB2B47248AB923009828B3 /* MemberFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberFetcher.swift; sourceTree = "<group>"; };
+		59CB2B49248ACEEE009828B3 /* SearchableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableTableViewController.swift; sourceTree = "<group>"; };
+		59CB2B4B248ADA94009828B3 /* MemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberTableViewCell.swift; sourceTree = "<group>"; };
 		59FF2148248AA26D00ACCF8C /* MyRep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FF214B248AA26D00ACCF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59FF214D248AA26D00ACCF8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59CB2B44248AB86B009828B3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				59CB2B45248AB88C009828B3 /* Member.swift */,
+				59CB2B47248AB923009828B3 /* MemberFetcher.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		59FF213F248AA26D00ACCF8C = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +73,16 @@
 		59FF214A248AA26D00ACCF8C /* MyRep */ = {
 			isa = PBXGroup;
 			children = (
+				59FF2159248AA27000ACCF8C /* Info.plist */,
 				59FF214B248AA26D00ACCF8C /* AppDelegate.swift */,
 				59FF214D248AA26D00ACCF8C /* SceneDelegate.swift */,
 				59FF214F248AA26D00ACCF8C /* ViewController.swift */,
-				59FF2151248AA26D00ACCF8C /* Main.storyboard */,
+				59CB2B4B248ADA94009828B3 /* MemberTableViewCell.swift */,
+				59CB2B49248ACEEE009828B3 /* SearchableTableViewController.swift */,
 				59FF2154248AA27000ACCF8C /* Assets.xcassets */,
+				59CB2B44248AB86B009828B3 /* Data */,
 				59FF2156248AA27000ACCF8C /* LaunchScreen.storyboard */,
-				59FF2159248AA27000ACCF8C /* Info.plist */,
+				59FF2151248AA26D00ACCF8C /* Main.storyboard */,
 			);
 			path = MyRep;
 			sourceTree = "<group>";
@@ -141,6 +161,10 @@
 				59FF2150248AA26D00ACCF8C /* ViewController.swift in Sources */,
 				59FF214C248AA26D00ACCF8C /* AppDelegate.swift in Sources */,
 				59FF214E248AA26D00ACCF8C /* SceneDelegate.swift in Sources */,
+				59CB2B4C248ADA94009828B3 /* MemberTableViewCell.swift in Sources */,
+				59CB2B4A248ACEEE009828B3 /* SearchableTableViewController.swift in Sources */,
+				59CB2B48248AB923009828B3 /* MemberFetcher.swift in Sources */,
+				59CB2B46248AB88C009828B3 /* Member.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,29 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsUsageDescription</key>
+		<dict>
+			<key>NSATSExceptionUsage</key>
+			<dict>
+				<key>NSATSExceptionUsageContentEncryptedByNetwork</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>whoismyrepresentative.com</key>
+			<dict>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
